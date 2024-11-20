@@ -46,10 +46,10 @@ const Project = () => {
          
          <div className='flex justify-end items-center mb-8'>
             <button className='p-3 bg-gray-200 rounded mr-2' aria-label='Previous Project'>
-              <img onClick={prevProject} src={assets.left_arrow}  style={{ loading: "eager" }} alt="Previous" />
+              <img onClick={prevProject} src={assets.left_arrow} alt="Previous" />
             </button>
             <button onClick={nextProject} className='p-3 bg-gray-200 rounded mr-2' aria-label='Next Project'>
-              <img src={assets.right_arrow}  style={{ loading: "eager" }} alt="Next" />
+              <img src={assets.right_arrow} alt="Next" />
             </button>
          </div>
 
